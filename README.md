@@ -1,10 +1,12 @@
 # Displacement-controlled Newton-Raphson algorithm
 
 ## Description
-This code calculates the nonlinear response (force-displacement curve) assuming material nonlinearity and geometric linearity using the displacement-controlled Newton-Raphson algorithm.
-The input files are (nodes.txt, restraints.txt, elements_information.txt) defining the geometry of the system, the restraints of the nodes and the properties of the elements. The outputs
-of main.m are .txt files for the displacement U, the corresponding force F and the residual force R for all iterations. The code plot_force_displacement.m creates a graph showing the
-nonlinear response of the structure (i.e. U and F generated in main.m), the code plot_residual.m creates a graph showing the residual force for all iterations over all loadsteps
+This code calculates the nonlinear response of a structure (force-displacement curve) assuming material nonlinearity and geometric linearity using the displacement-controlled Newton-Raphson algorithm.
+The input files are nodes.txt, restraints.txt, elements_information.txt defining the geometry of the system, the restrained degrees of freedom at the nodes and the properties of the elements. The outputs
+of main.m are .txt-files for the displacement U, the corresponding force F and the residual force R for all iterations.
+
+The code plot_force_displacement.m creates a graph showing the
+nonlinear response (i.e. U and F generated in main.m) at a specific node for all degrees of freedom, the code plot_residual.m creates a graph showing the residual force for all iterations over all loadsteps
 (i.e. R generated in main.m).
 
 ## Getting Started
@@ -17,9 +19,9 @@ The code was developped on Matlab version R2021b.
 * To plot the residual force: run plot_residual.m
 
 ## Authors
-[Nicole Widmer](nicole.widmer@epfl.ch)
+[Nicole Widmer](<nicole.widmer@epfl.ch>)
 
-##License
+## License
 The project is licensed under the CC BY 4.0 license.
 
 ## Acknowledgments
