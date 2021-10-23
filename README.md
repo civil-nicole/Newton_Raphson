@@ -19,7 +19,7 @@ The code was developped on Matlab version R2021b.
 * To plot the residual force: run plot_residual.m
 
 ## Authors
-[Nicole Widmer](<nicole.widmer@epfl.ch>)
+[Nicole Widmer]<nicole.widmer@epfl.ch>
 
 ## License
 The project is licensed under the CC BY 4.0 license.
